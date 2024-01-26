@@ -1,0 +1,161 @@
+*{
+    padding: 0px;
+    margin: opx;
+}
+
+.icon-image{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.icon-image:hover{
+    background-color: rgba(198, 197, 197, 0.986);
+    border-radius: 100px;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content:center ;
+    
+}
+nav {
+    width: 97%;
+    display: flex;
+    color: black;
+    justify-content: space-between;
+}
+div.left{
+    width: 220px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+}
+div.right{
+    width: 150px;
+    display: flex;
+    justify-content:right ;
+    align-items: center;
+}
+
+h1:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(54, 150, 54);
+
+}
+/* nav css ends */
+.main{
+    display: flex;
+}
+
+.aside{
+    width: 20%;
+    height: 89vh;
+    border-right: 0.7px solid black;
+}
+.sideboxes {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    color: black;
+}
+.sideboxes:hover {
+    background-color: rgba(189, 189, 189, 0.968);
+    border-radius: 75px;
+    cursor: pointer;
+}
+.sideboxes i {
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: black;
+}
+
+.sideboxes img {
+    margin-left: 15px;
+    width: 35px;
+    border-radius: 100%;
+}
+/* aside css ends */
+
+.article {
+    display: flex;
+    gap: 25px;
+    padding: 30px 30px;
+    width: 80%;
+}
+
+.box1 {
+    width: 300px;
+    height: 280px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.box1:hover{
+    transform: scale(1.1);
+}
+.part1 {
+    position: relative;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    height: 100px;
+    background-image: url(https://muhammad-haram.github.io/classroom/img/bg1.jpg);
+    background-size: cover;
+}
+.part1 img {
+    position: absolute;
+    border-radius: 100%;
+    right: 15px;
+    top: 60px;
+    height: 45px;
+}
+
+.midpart {
+    width: 100%;
+    height: 135px;
+    border-bottom: 1px solid gray;
+}
+
+.endpart {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+}
+
+.part1 h4:hover {
+    color: rgb(201, 207, 212);
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+.part1 h5:hover {
+    color: rgb(201, 207, 212);
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.box2 {
+    width: 300px;
+    height: 280px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.box2:hover{
+    transform: scale(1.1);
+}
+
+
